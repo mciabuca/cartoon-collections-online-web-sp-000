@@ -9,8 +9,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  res1 = array.any? { |num| array[num].length > 4}  
-  return res1 
+  array.any? do |num|
+    
 end
 
 def find_the_cheese# code an argument here
