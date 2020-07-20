@@ -9,10 +9,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  res1 = enu1.all? { |num| num>4}  
-  
-# prints the result  
-puts res1 
+  res1 = array.all? { |num| num>4}  
+  puts res1 
 end
 
 def find_the_cheese# code an argument here
